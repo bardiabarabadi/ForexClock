@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31371883253F69D3001BA924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31371882253F69D3001BA924 /* AppDelegate.swift */; };
+		31371885253F69D3001BA924 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31371884253F69D3001BA924 /* SceneDelegate.swift */; };
+		31371887253F69D3001BA924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31371886253F69D3001BA924 /* ViewController.swift */; };
+		3137188A253F69D3001BA924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31371888253F69D3001BA924 /* Main.storyboard */; };
+		3137188C253F69D4001BA924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3137188B253F69D4001BA924 /* Assets.xcassets */; };
+		3137188F253F69D4001BA924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3137188D253F69D4001BA924 /* LaunchScreen.storyboard */; };
+		3137189A253F69D4001BA924 /* ForexClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31371899253F69D4001BA924 /* ForexClockTests.swift */; };
+		313718A5253F69D4001BA924 /* ForexClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313718A4253F69D4001BA924 /* ForexClockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31371896253F69D4001BA924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31371877253F69D3001BA924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3137187E253F69D3001BA924;
+			remoteInfo = ForexClock;
+		};
+		313718A1253F69D4001BA924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31371877253F69D3001BA924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3137187E253F69D3001BA924;
+			remoteInfo = ForexClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3137187F253F69D3001BA924 /* ForexClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForexClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31371882253F69D3001BA924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31371884253F69D3001BA924 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		31371886253F69D3001BA924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31371889253F69D3001BA924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3137188B253F69D4001BA924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3137188E253F69D4001BA924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31371890253F69D4001BA924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31371895253F69D4001BA924 /* ForexClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForexClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31371899253F69D4001BA924 /* ForexClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexClockTests.swift; sourceTree = "<group>"; };
+		3137189B253F69D4001BA924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		313718A0253F69D4001BA924 /* ForexClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForexClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		313718A4253F69D4001BA924 /* ForexClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexClockUITests.swift; sourceTree = "<group>"; };
+		313718A6253F69D4001BA924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3137187C253F69D3001BA924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31371892253F69D4001BA924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3137189D253F69D4001BA924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31371876253F69D3001BA924 = {
+			isa = PBXGroup;
+			children = (
+				31371881253F69D3001BA924 /* ForexClock */,
+				31371898253F69D4001BA924 /* ForexClockTests */,
+				313718A3253F69D4001BA924 /* ForexClockUITests */,
+				31371880253F69D3001BA924 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31371880253F69D3001BA924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3137187F253F69D3001BA924 /* ForexClock.app */,
+				31371895253F69D4001BA924 /* ForexClockTests.xctest */,
+				313718A0253F69D4001BA924 /* ForexClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31371881253F69D3001BA924 /* ForexClock */ = {
+			isa = PBXGroup;
+			children = (
+				31371882253F69D3001BA924 /* AppDelegate.swift */,
+				31371884253F69D3001BA924 /* SceneDelegate.swift */,
+				31371886253F69D3001BA924 /* ViewController.swift */,
+				31371888253F69D3001BA924 /* Main.storyboard */,
+				3137188B253F69D4001BA924 /* Assets.xcassets */,
+				3137188D253F69D4001BA924 /* LaunchScreen.storyboard */,
+				31371890253F69D4001BA924 /* Info.plist */,
+			);
+			path = ForexClock;
+			sourceTree = "<group>";
+		};
+		31371898253F69D4001BA924 /* ForexClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				31371899253F69D4001BA924 /* ForexClockTests.swift */,
+				3137189B253F69D4001BA924 /* Info.plist */,
+			);
+			path = ForexClockTests;
+			sourceTree = "<group>";
+		};
+		313718A3253F69D4001BA924 /* ForexClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				313718A4253F69D4001BA924 /* ForexClockUITests.swift */,
+				313718A6253F69D4001BA924 /* Info.plist */,
+			);
+			path = ForexClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3137187E253F69D3001BA924 /* ForexClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313718A9253F69D4001BA924 /* Build configuration list for PBXNativeTarget "ForexClock" */;
+			buildPhases = (
+				3137187B253F69D3001BA924 /* Sources */,
+				3137187C253F69D3001BA924 /* Frameworks */,
+				3137187D253F69D3001BA924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForexClock;
+			productName = ForexClock;
+			productReference = 3137187F253F69D3001BA924 /* ForexClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31371894253F69D4001BA924 /* ForexClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313718AC253F69D4001BA924 /* Build configuration list for PBXNativeTarget "ForexClockTests" */;
+			buildPhases = (
+				31371891253F69D4001BA924 /* Sources */,
+				31371892253F69D4001BA924 /* Frameworks */,
+				31371893253F69D4001BA924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31371897253F69D4001BA924 /* PBXTargetDependency */,
+			);
+			name = ForexClockTests;
+			productName = ForexClockTests;
+			productReference = 31371895253F69D4001BA924 /* ForexClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3137189F253F69D4001BA924 /* ForexClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313718AF253F69D4001BA924 /* Build configuration list for PBXNativeTarget "ForexClockUITests" */;
+			buildPhases = (
+				3137189C253F69D4001BA924 /* Sources */,
+				3137189D253F69D4001BA924 /* Frameworks */,
+				3137189E253F69D4001BA924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				313718A2253F69D4001BA924 /* PBXTargetDependency */,
+			);
+			name = ForexClockUITests;
+			productName = ForexClockUITests;
+			productReference = 313718A0253F69D4001BA924 /* ForexClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31371877253F69D3001BA924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3137187E253F69D3001BA924 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					31371894253F69D4001BA924 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 3137187E253F69D3001BA924;
+					};
+					3137189F253F69D4001BA924 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 3137187E253F69D3001BA924;
+					};
+				};
+			};
+			buildConfigurationList = 3137187A253F69D3001BA924 /* Build configuration list for PBXProject "ForexClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31371876253F69D3001BA924;
+			productRefGroup = 31371880253F69D3001BA924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3137187E253F69D3001BA924 /* ForexClock */,
+				31371894253F69D4001BA924 /* ForexClockTests */,
+				3137189F253F69D4001BA924 /* ForexClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3137187D253F69D3001BA924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3137188F253F69D4001BA924 /* LaunchScreen.storyboard in Resources */,
+				3137188C253F69D4001BA924 /* Assets.xcassets in Resources */,
+				3137188A253F69D3001BA924 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31371893253F69D4001BA924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3137189E253F69D4001BA924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3137187B253F69D3001BA924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31371887253F69D3001BA924 /* ViewController.swift in Sources */,
+				31371883253F69D3001BA924 /* AppDelegate.swift in Sources */,
+				31371885253F69D3001BA924 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31371891253F69D4001BA924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3137189A253F69D4001BA924 /* ForexClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3137189C253F69D4001BA924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313718A5253F69D4001BA924 /* ForexClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31371897253F69D4001BA924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3137187E253F69D3001BA924 /* ForexClock */;
+			targetProxy = 31371896253F69D4001BA924 /* PBXContainerItemProxy */;
+		};
+		313718A2253F69D4001BA924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3137187E253F69D3001BA924 /* ForexClock */;
+			targetProxy = 313718A1253F69D4001BA924 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31371888253F69D3001BA924 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31371889253F69D3001BA924 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3137188D253F69D4001BA924 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3137188E253F69D4001BA924 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		313718A7253F69D4001BA924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		313718A8253F69D4001BA924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		313718AA253F69D4001BA924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V6DK23L8X;
+				INFOPLIST_FILE = ForexClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BardiaBarabadi.ForexClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		313718AB253F69D4001BA924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V6DK23L8X;
+				INFOPLIST_FILE = ForexClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BardiaBarabadi.ForexClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		313718AD253F69D4001BA924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V6DK23L8X;
+				INFOPLIST_FILE = ForexClockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BardiaBarabadi.ForexClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForexClock.app/ForexClock";
+			};
+			name = Debug;
+		};
+		313718AE253F69D4001BA924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V6DK23L8X;
+				INFOPLIST_FILE = ForexClockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BardiaBarabadi.ForexClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForexClock.app/ForexClock";
+			};
+			name = Release;
+		};
+		313718B0253F69D4001BA924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V6DK23L8X;
+				INFOPLIST_FILE = ForexClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BardiaBarabadi.ForexClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForexClock;
+			};
+			name = Debug;
+		};
+		313718B1253F69D4001BA924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V6DK23L8X;
+				INFOPLIST_FILE = ForexClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BardiaBarabadi.ForexClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForexClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3137187A253F69D3001BA924 /* Build configuration list for PBXProject "ForexClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313718A7253F69D4001BA924 /* Debug */,
+				313718A8253F69D4001BA924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		313718A9253F69D4001BA924 /* Build configuration list for PBXNativeTarget "ForexClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313718AA253F69D4001BA924 /* Debug */,
+				313718AB253F69D4001BA924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		313718AC253F69D4001BA924 /* Build configuration list for PBXNativeTarget "ForexClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313718AD253F69D4001BA924 /* Debug */,
+				313718AE253F69D4001BA924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		313718AF253F69D4001BA924 /* Build configuration list for PBXNativeTarget "ForexClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313718B0253F69D4001BA924 /* Debug */,
+				313718B1253F69D4001BA924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31371877253F69D3001BA924 /* Project object */;
+}
