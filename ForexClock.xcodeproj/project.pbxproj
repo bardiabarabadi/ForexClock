@@ -15,6 +15,10 @@
 		3137188F253F69D4001BA924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3137188D253F69D4001BA924 /* LaunchScreen.storyboard */; };
 		3137189A253F69D4001BA924 /* ForexClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31371899253F69D4001BA924 /* ForexClockTests.swift */; };
 		313718A5253F69D4001BA924 /* ForexClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313718A4253F69D4001BA924 /* ForexClockUITests.swift */; };
+		314F6A8A2540C19D0055CEC1 /* Clock_DayOfWeek_Handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F6A862540C19D0055CEC1 /* Clock_DayOfWeek_Handle.png */; };
+		314F6A8B2540C19D0055CEC1 /* Clock_HourOfDay_Handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F6A872540C19D0055CEC1 /* Clock_HourOfDay_Handle.png */; };
+		314F6A8C2540C19D0055CEC1 /* Clock_HourOfDay.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F6A882540C19D0055CEC1 /* Clock_HourOfDay.png */; };
+		314F6A8D2540C19D0055CEC1 /* Clock_DayOfWeek.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F6A892540C19D0055CEC1 /* Clock_DayOfWeek.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		313718A0253F69D4001BA924 /* ForexClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForexClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		313718A4253F69D4001BA924 /* ForexClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexClockUITests.swift; sourceTree = "<group>"; };
 		313718A6253F69D4001BA924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314F6A862540C19D0055CEC1 /* Clock_DayOfWeek_Handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Clock_DayOfWeek_Handle.png; path = ForexClock/Clock_DayOfWeek_Handle.png; sourceTree = SOURCE_ROOT; };
+		314F6A872540C19D0055CEC1 /* Clock_HourOfDay_Handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Clock_HourOfDay_Handle.png; path = ForexClock/Clock_HourOfDay_Handle.png; sourceTree = SOURCE_ROOT; };
+		314F6A882540C19D0055CEC1 /* Clock_HourOfDay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Clock_HourOfDay.png; path = ForexClock/Clock_HourOfDay.png; sourceTree = SOURCE_ROOT; };
+		314F6A892540C19D0055CEC1 /* Clock_DayOfWeek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Clock_DayOfWeek.png; path = ForexClock/Clock_DayOfWeek.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,11 @@
 		31371881253F69D3001BA924 /* ForexClock */ = {
 			isa = PBXGroup;
 			children = (
+				314F6A862540C19D0055CEC1 /* Clock_DayOfWeek_Handle.png */,
+				314F6A892540C19D0055CEC1 /* Clock_DayOfWeek.png */,
+				314F6A872540C19D0055CEC1 /* Clock_HourOfDay_Handle.png */,
+				314F6A882540C19D0055CEC1 /* Clock_HourOfDay.png */,
+				314F6A852540C16F0055CEC1 /* pngs */,
 				31371882253F69D3001BA924 /* AppDelegate.swift */,
 				31371884253F69D3001BA924 /* SceneDelegate.swift */,
 				31371886253F69D3001BA924 /* ViewController.swift */,
@@ -126,6 +139,13 @@
 				313718A6253F69D4001BA924 /* Info.plist */,
 			);
 			path = ForexClockUITests;
+			sourceTree = "<group>";
+		};
+		314F6A852540C16F0055CEC1 /* pngs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pngs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +253,10 @@
 			files = (
 				3137188F253F69D4001BA924 /* LaunchScreen.storyboard in Resources */,
 				3137188C253F69D4001BA924 /* Assets.xcassets in Resources */,
+				314F6A8A2540C19D0055CEC1 /* Clock_DayOfWeek_Handle.png in Resources */,
+				314F6A8D2540C19D0055CEC1 /* Clock_DayOfWeek.png in Resources */,
+				314F6A8B2540C19D0055CEC1 /* Clock_HourOfDay_Handle.png in Resources */,
+				314F6A8C2540C19D0055CEC1 /* Clock_HourOfDay.png in Resources */,
 				3137188A253F69D3001BA924 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
