@@ -66,6 +66,11 @@ class ViewController: UIViewController {
             dayOfWeek_UTC = 1
             txt_marketIsClosed.alpha = 1.0
         }
+        
+        if (hourOfDay_UTC==0){
+            hourOfDay_UTC = 24
+        }
+        
         let rotation_angle_HourOfDay = Float(hourOfDay_UTC) * Float(2*Double.pi/24)
         let rotation_angle_DayOfWeek = (Float(dayOfWeek_UTC) - 2) * Float(2*Double.pi/5) + rotation_angle_HourOfDay/5
         img_handle_HourOfDay.transform = CGAffineTransform (rotationAngle: CGFloat(rotation_angle_HourOfDay))
